@@ -363,6 +363,8 @@ void insertionSort(){
 **5.4.3** **Pertanyaan**
 
 Ubahlah fungsi pada InsertionSort sehingga fungsi ini dapat melaksanakan proses sorting dengan cara ascending atau decending, anda dapat melakukannya dengan menambahkan parameter pada pemanggilan fungsi insertionSort.
+<br>
+
 Mahasiswa
 ```java
     void insertionSort(boolean asc){
