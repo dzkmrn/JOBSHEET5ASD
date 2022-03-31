@@ -183,6 +183,7 @@ public class DaftarMahasiswaBerprestasi{
 
 ```
 **5.2.2 Verifikasi Hasil Percobaan**
+<br>
 <img src = "hsl1.png">
 <img src = "hsl2.png">
 
@@ -297,6 +298,7 @@ program untuk memanggil method selectionSort() tersebut!
 
 ```
 **5.3.2. Verifikasi Hasil Percobaan**
+<br>
 <img src = "hsl1.png">
 <img src = "hsl3.png">
 
@@ -324,52 +326,9 @@ Yang terakhir akan diimplementasikan Teknik sorting menggunakan Insertion Sort,
 dengan mengurutkan IPK mahasiswa secara ascending.
 
 **5.4.1 Langkah-langkah Percobaan**
-1. Lihat kembali class DaftarMahasiswaBerprestasi, dan tambahkan method insertionSort() di 
+\1. Lihat kembali class DaftarMahasiswaBerprestasi, dan tambahkan method insertionSort() di 
 dalamnya. Method ini juga akan melakukan proses sorting secara ascending, tetapi 
 menggunakan pendekatan Insertion Sort
-```java
- void insertionSort(){
-        for(int i=1;i<listMhs.length;i++){
-            Mahasiswa temp = listMhs[i];
-            int j = i;
-            while(j>0 && listMhs[j-1].ipk>temp.ipk){
-                listMhs[j] = listMhs[j-1];
-                j--;
-            }
-            listMhs[j] = temp;
-            }
-        }
-  //display method
-  System.out.println("Data mahasiswa setelah sorting asc berdasarkan ipk");
-        list.insertionSort();
-        list.tampil();
-
-```
-**5.4.2 Verifikasi Hasil Percobaan**
-<img src ="hsl1.png">
-<img src ="hsl4.png">
-
-**5.4.3** **Pertanyaan**
-
-Di dalam method selection sort, terdapat baris program seperti di bawah ini:
-
-Untuk apakah proses tersebut, jelaskan!
-
-
-**5.4 Mengurutkan Data Mahasiswa Berdasarkan IPK Menggunakan Insertion Sort**
-
-Yang terakhir akan diimplementasikan Teknik sorting menggunakan Insertion Sort,
-
-dengan mengurutkan IPK mahasiswa secara ascending.
-
-**5.4.1** **Langkah-langkah Percobaan**
-
-\1. Lihat kembali class DaftarMahasiswaBerprestasi, dan tambahkan method insertionSort() di
-
-dalamnya. Method ini juga akan melakukan proses sorting secara ***ascending***, tetapi
-
-menggunakan pendekatan Insertion Sort.
-
 \2. Setelah itu, buka kembali class Main, dan di dalam method main() tambahkan baris program
 
 untuk memanggil method insertionSort() tersebut!
@@ -396,14 +355,15 @@ void insertionSort(){
         list.insertionSort();
         list.tampil();
 ```
-
-**5.4.2** **Verifikasi Hasil Percobaan**
-<img src = "hsl1.png">
-<img src = "hsl4.png">
+**5.4.2 Verifikasi Hasil Percobaan**
+<br>
+<img src ="hsl1.png">
+<img src ="hsl4.png">
 
 **5.4.3** **Pertanyaan**
 
 Ubahlah fungsi pada InsertionSort sehingga fungsi ini dapat melaksanakan proses sorting dengan cara ascending atau decending, anda dapat melakukannya dengan menambahkan parameter pada pemanggilan fungsi insertionSort.
+Mahasiswa
 ```java
     void insertionSort(boolean asc){
         for(int i = 1; i < listMhs.length; i++){
@@ -437,6 +397,7 @@ System.out.println("Data Mahasiswa Setelah Insertion Sorting Desc Berdasarkan IP
 list.insertionSort(false);
 list.tampil();
 ```
+
 
 **5.5 Latihan Praktikum**
 
